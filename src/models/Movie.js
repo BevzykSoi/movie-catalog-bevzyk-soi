@@ -12,7 +12,7 @@ const movieSchema = new Schema({
         max: 10,
         default: 0,
     },
-    actord: [{
+    actors: [{
         type: Schema.Types.ObjectId,
         ref: "actor",
     }]
